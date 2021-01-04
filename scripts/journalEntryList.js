@@ -24,36 +24,3 @@ export const EntryListComponent = () => {
     }
 }
 
-// import { mostHolyFish } from './fishDataProvider.js'
-// import { soldierFish } from './fishDataProvider.js'
-// import { nonHolyFish } from './fishDataProvider.js'
-// import { Fish } from './fish.js'
-
-// export const FishList = () => {
-
-//     // Get a reference to the `<article class="content">` element
-//     const contentElement = document.querySelector(".container--left")
-//     const holyFish = mostHolyFish()
-//     const soldiers = soldierFish()
-//     const losers = nonHolyFish()
-
-//     for (const fishObject of holyFish) {
-//         // console.log("one fish", fishObject)
-//         const fishHTML = Fish(fishObject)
-//         // Add to the existing HTML in the content element
-//         contentElement.innerHTML += fishHTML
-//     }
-//     for (const fishObject of soldiers) {
-//         // console.log("one fish", fishObject)
-//         const fishHTML = Fish(fishObject)
-//         // Add to the existing HTML in the content element
-//         contentElement.innerHTML += fishHTML
-//     }
-//     for (const fishObject of losers) {
-//         // console.log("one fish", fishObject)
-//         const fishHTML = Fish(fishObject)
-//         // Add to the existing HTML in the content element
-//         contentElement.innerHTML += fishHTML
-//     }
-
-// }

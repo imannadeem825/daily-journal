@@ -7,42 +7,16 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <header>
-
-    </header>
-    <main>
+    <header></header>
+    <main class="container">
         <h2>Daily Journal</h2>
         <form action="">
-            <fieldset>
-                <label for="journalDate">Date of Entry</label>
-                <input type="date" name="journalDate" id="journalDate">
-            </fieldset>
-            <fieldset>
-                <label for="conceptsCovered">Concepts Covered</label>
-                <input type="text" name="conceptsCovered" id="conceptsCovered">
-            </fieldset>
-            <fieldset>
-                <label for="journalEntry">Journal Entry</label>
-                <textarea id="journalEntry" name="journalEntry" rows="5"></textarea>
-            </fieldset>
-            <fieldset>
-                <label for="mood">Mood</label>
-                <select name="mood" id="mood">
-                    <option value="sad">Sad</option>
-                    <option value="discouraged">Discouraged</option>
-                    <option value="frustrated">Frustrated</option>
-                    <option value="defeated">Defeated</option>
-                    <option value="proud">Proud</option>
-                    <option value="excited">Excited</option>
-                </select>
-            </fieldset>
             <button type="button">Record Journal Entry</button>
+            <article class="journalFormContainer"></article>
         </form>
         <section id="entryLog"></section>
     </main>
     <script type="module" src="./scripts/main.js"></script>
 </body>
-<footer>
-
-</footer>
+<footer></footer>
 </html>
