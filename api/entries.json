@@ -1,25 +1,99 @@
 {
-    "entries": [
-        {
-            "id": 1,
-            "date": "07/24/2025",
-            "concept": "HTML & CSS",
-            "entry": "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
-            "mood": "Ok"
-        },
-        {
-            "id": 2,
-            "date": "07/25/2025",
-            "concept": "Github",
-            "entry": "We learned how to use git/github.",
-            "mood": "Frustrated"
-        },
-        {
-            "id": 3,
-            "date": "07/26/2025",
-            "concept": "Flexbox",
-            "entry": "We discussed all the ways flexbox can align content and elements on the page.",
-            "mood": "Excited"
-        }
-    ]
+  "entries": [
+    {
+      "date": "2021-01-07",
+      "concept": "test",
+      "entry": "test",
+      "moodId": 6,
+      "id": 19
+    },
+    {
+      "date": "2021-01-07",
+      "concept": "test 2",
+      "entry": "test 2",
+      "moodId": 18,
+      "id": 20
+    },
+    {
+      "date": "2021-01-07",
+      "concept": "test",
+      "entry": "test",
+      "moodId": 18,
+      "id": 21
+    }
+  ],
+  "moods": [
+    {
+      "id": 1,
+      "label": "Proud 😊 "
+    },
+    {
+      "id": 2,
+      "label": "Excited 🤩 "
+    },
+    {
+      "id": 3,
+      "label": "Celebratory 🥳 "
+    },
+    {
+      "id": 4,
+      "label": "Mind-blown 🤯 "
+    },
+    {
+      "id": 5,
+      "label": "Capable 😎 "
+    },
+    {
+      "id": 6,
+      "label": "Smart 🤓 "
+    },
+    {
+      "id": 7,
+      "label": "Boss 😤 "
+    },
+    {
+      "id": 8,
+      "label": "Sad 😔 "
+    },
+    {
+      "id": 9,
+      "label": "Discouraged 😩 "
+    },
+    {
+      "id": 10,
+      "label": "Defeated 😭 "
+    },
+    {
+      "id": 11,
+      "label": "Hold Me 🥺 "
+    },
+    {
+      "id": 12,
+      "label": "Confused 🥴 "
+    },
+    {
+      "id": 13,
+      "label": "Lost 🙃 "
+    },
+    {
+      "id": 14,
+      "label": "Stressed 😓 "
+    },
+    {
+      "id": 15,
+      "label": "Frustrated 😖 "
+    },
+    {
+      "id": 16,
+      "label": "Over It 😒 "
+    },
+    {
+      "id": 17,
+      "label": "Fed Up 🤬 "
+    },
+    {
+      "id": 18,
+      "label": "🤡"
+    }
+  ]
 }

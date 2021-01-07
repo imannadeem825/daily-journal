@@ -8,7 +8,7 @@ const dispatchStateChangeEvent = () => {
 
 export const getEntries = () => {
     return fetch("http://localhost:8088/entries") // Fetch from the API
-        .then()  // Parse as JSON
+        .then(response => response.json())  // Parse as JSON
         .then(entries => {
             // What should happen when we finally have the array?
             console.table(entries)
@@ -17,6 +17,7 @@ export const getEntries = () => {
 }
 
 export const useJournalEntries = () => {
+    
     journal.sort(
         (currentEntry, nextEntry) =>
             Date.parse(currentEntry.date) - Date.parse(nextEntry.date)
@@ -26,7 +27,7 @@ export const useJournalEntries = () => {
 
 export const saveJournalEntry = (newJournalEntry) => {
     let stringifiedObj = JSON.stringify(newJournalEntry)
-    return fetch('http://localhost:8088/entries', {
+    return fetch("http://localhost:8088/entries", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
